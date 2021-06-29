@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/browse_menu_item"
+        android:icon="@drawable/ic_menu_browse_white_24dp"
+        android:title="@string/fragment_browse_popular_title" />
+
+    <item
+        android:id="@+id/advisor_menu_item"
+        android:icon="@drawable/ic_menu_advisor_white_24dp"
+        android:title="@string/fragment_menu_advisor_title" />
+
+    <item
+        android:id="@+id/groups_menu_item"
+        android:icon="@drawable/ic_menu_groups_white_24dp"
+        android:title="@string/fragment_menu_groups_title" />
+
+    <item
+        android:id="@+id/profile_menu_item"
+        android:icon="@drawable/ic_menu_profile_white_24dp"
+        android:title="@string/fragment_menu_profile_title" />
+</menu>

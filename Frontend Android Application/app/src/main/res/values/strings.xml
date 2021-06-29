@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MovieAdvisor</string>
+
+    <string name="group_empty_message">You are not part of any groups</string>
+
+    <string name="fragment_browse_popular_title">Browse</string>
+    <string name="fragment_menu_advisor_title">Advisor</string>
+    <string name="fragment_menu_groups_title">Groups</string>
+    <string name="fragment_menu_profile_title">Profile</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+
+    <string name="swipe_to_register">Swipe to Register</string>
+    <string name="swipe_to_login">Swipe to Login</string>
+    <string name="arrow_pointing_right">Arrow pointing right</string>
+    <string name="arrow_pointing_left">Arrow pointing left</string>
+
+    <string name="sign_out_button">Sign out</string>
+    <string name="log_in_button">Log in</string>
+
+    <string name="movie_name">Name</string>
+    <string name="movie_overview">Overview</string>
+
+</resources>

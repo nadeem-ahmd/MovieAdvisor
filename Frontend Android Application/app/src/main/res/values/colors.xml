@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323846</color>
+    <color name="colorPrimaryLight">#454954</color>
+    <color name="colorObject">#F7E8E8</color>
+
+    <color name="normalPress">#40323846</color>
+    <color name="buttonPress">#BF454954</color>
+
+    <color name="ratingActivated">#FFFFFF</color>
+    <color name="ratingNormal">#FFFFFF</color>
+</resources>

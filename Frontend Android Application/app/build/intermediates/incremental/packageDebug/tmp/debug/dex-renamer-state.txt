@@ -1,0 +1,7 @@
+#Sun May 31 01:46:34 BST 2020
+base.0=C\:\\Users\\nadee\\OneDrive\\QMUL\\_Year 3\\Project\\Implementation\\Frontend\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\nadee\\OneDrive\\QMUL\\_Year 3\\Project\\Implementation\\Frontend\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>users={{users}}</h2>
+        <h2>k_trials={{k_trials}}</h2>
+        <h2>k_recalls={{k_recalls}}</h2>
+        <h2>k_precisions={{k_precisions}}</h2>
+        <h2>k_fmeasure={{k_fmeasure}}</h2>
+        <h2>k_mae={{k_mae}}</h2>
+        <h2>k_mse={{k_mse}}</h2>
+    </body>
+</html>

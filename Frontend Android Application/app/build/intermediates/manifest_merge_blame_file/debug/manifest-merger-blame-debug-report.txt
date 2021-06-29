@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.movieadvisor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:8:22-78
+15
+16    <application
+16-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:10:5-40:19
+17        android:allowBackup="true"
+17-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity android:name="com.movieadvisor.SplashScreenActivity" >
+26-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:17:19-55
+27            <intent-filter>
+27-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:24:9-27:55
+34            android:name="com.movieadvisor.Authentication.AuthenticationActivity"
+34-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:25:13-66
+35            android:launchMode="singleTop"
+35-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:26:13-43
+36            android:windowSoftInputMode="adjustPan" />
+36-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:27:13-52
+37        <activity
+37-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:28:9-31:55
+38            android:name="com.movieadvisor.Main.MainActivity"
+38-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:29:13-46
+39            android:launchMode="singleTop"
+39-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:30:13-43
+40            android:windowSoftInputMode="adjustPan" />
+40-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:31:13-52
+41        <activity
+41-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:32:9-35:55
+42            android:name="com.movieadvisor.Details.DetailsActivity"
+42-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:33:13-52
+43            android:parentActivityName="com.movieadvisor.Main.MainActivity"
+43-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:34:13-60
+44            android:windowSoftInputMode="adjustPan" />
+44-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:35:13-52
+45        <activity
+45-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:36:9-39:55
+46            android:name="com.movieadvisor.Advisor.AdvisorActivity"
+46-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:37:13-52
+47            android:parentActivityName="com.movieadvisor.Main.MainActivity"
+47-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:38:13-60
+48            android:windowSoftInputMode="adjustPan" />
+48-->C:\Users\nadee\OneDrive\QMUL\_Year 3\Project\Implementation\Frontend\app\src\main\AndroidManifest.xml:39:13-52
+49        <activity
+49-->[com.karumi:dexter:6.0.2] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\572dea8c287d1fe2a8ea8e00b19e0e14\dexter-6.0.2\AndroidManifest.xml:27:9-29:72
+50            android:name="com.karumi.dexter.DexterActivity"
+50-->[com.karumi:dexter:6.0.2] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\572dea8c287d1fe2a8ea8e00b19e0e14\dexter-6.0.2\AndroidManifest.xml:28:13-60
+51            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+51-->[com.karumi:dexter:6.0.2] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\572dea8c287d1fe2a8ea8e00b19e0e14\dexter-6.0.2\AndroidManifest.xml:29:13-69
+52        <activity
+52-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+53            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+53-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+54            android:excludeFromRecents="true"
+54-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+55            android:exported="true"
+55-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+56            android:launchMode="singleTask"
+56-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+57            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+57-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+59
+60        <service
+60-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+67        </service>
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+73
+74        <provider
+74-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+75            android:name="com.google.firebase.provider.FirebaseInitProvider"
+75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+76            android:authorities="com.movieadvisor.firebaseinitprovider"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\4f0d0c2d20decedce4abff3acc15331a\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\8712c37a9f6276db1038c1b16516fe2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\8712c37a9f6276db1038c1b16516fe2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\8712c37a9f6276db1038c1b16516fe2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+83
+84        <provider
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+85            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+86            android:authorities="com.movieadvisor.lifecycle-process"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+87            android:exported="false"
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+88            android:multiprocess="true" />
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nadee\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+89    </application>
+90
+91</manifest>

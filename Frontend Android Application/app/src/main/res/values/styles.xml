@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorObject</item>
+    </style>
+
+    <style name="RatingBarTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/ratingNormal</item>
+        <item name="colorControlActivated">@color/ratingActivated</item>
+        <item name="colorControlHighlight">@color/ratingActivated</item>
+    </style>
+</resources>
